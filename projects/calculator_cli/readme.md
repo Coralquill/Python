@@ -1,6 +1,6 @@
 # CLI Calculator
 
-A simple command-line interface calculator built in Python.  
+A simple command-line interface calculator built in Python3.  
 Supports addition, subtraction, multiplication, and division with basic input validation and history tracking.
 
 ---
@@ -14,9 +14,11 @@ Supports addition, subtraction, multiplication, and division with basic input va
 - Continuous operation until user decides to exit  
 
 ---
+## 🚀 How to Run
 
-## Usage
+Make sure you have Python 3 installed.
 
-1. Run the script:  
-   ```bash
-   python calculator.py
+```bash
+git clone https://github.com/Coralquill/python_.git
+cd python_/projects/calculator_cli
+python_ calculator.py
