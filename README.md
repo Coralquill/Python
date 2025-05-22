@@ -7,7 +7,7 @@ This repository contains all my Python practice and projects, organized into:
 
 ## Highlights
 
-- 50+ LeetCode problems solved
+- 50+ LeetCode and hackerrank problems solved
 - CLI calculator with error handling
 - To-do app with file-based persistence
 
