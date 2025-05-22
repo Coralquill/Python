@@ -1,0 +1,21 @@
+if __name__ == '__main__':
+    list_1=[]
+    list_2=[]
+    for _ in range(int(input())):
+        name = input()
+        score = float(input())
+        list_1.append(name)
+        list_2.append(score)
+        
+    records=list(zip(list_2,list_1))
+    records.sort()
+    
+    list_3=list(set(list_2))
+    list_3.sort()
+    n=list_3[1]
+    
+    students=[name  for score,name in records if score== n ]
+    
+    
+    for _ in students:
+        print(_)
